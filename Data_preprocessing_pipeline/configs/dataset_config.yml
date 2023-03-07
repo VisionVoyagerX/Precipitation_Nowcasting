@@ -1,0 +1,31 @@
+dataplatform:
+  base_url: "https://api.dataplatform.knmi.nl/open-data/v1"
+
+credentials:
+  api_key: "REQUIRED TO BE OBTAINED"
+  bulk_key:
+    precipitation_gauge: "REQUIRED TO BE OBTAINED"
+    precipitation: "REQUIRED TO BE OBTAINED"
+    echo_top: "REQUIRED TO BE OBTAINED"
+
+dataset_identification:
+  precipitation_gauge:
+    dataset_name: "nl_rdr_data_rtcor_5m_tar"
+    dataset_version: "1.0"
+  precipitation:
+    dataset_name: "radar_tar_refl_composites"
+    dataset_version: "1.0"
+  echo_top:
+    dataset_name: "radar_tar_echotopheight_5min"
+    dataset_version: "1.0"
+
+download_dir:
+  precipitation: "Data/downloaded/precipitation"
+  precipitation_gauge: "Data/downloaded/precipitation_gauge"
+  echo_top: "Data/downloaded/echo_top"
+  satellite: "Data/downloaded/satellite"
+
+final_dir:
+  train: "Data/train"
+  validation: "Data/validation"
+  test: "Data/test"
