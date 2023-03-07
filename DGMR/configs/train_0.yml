@@ -1,0 +1,6 @@
+model_identification:
+  model_name: "Vanilla"
+  model_version: 1
+
+model_params:
+  steps: 5
