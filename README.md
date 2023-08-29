@@ -1,4 +1,4 @@
-This is a private repository containing my implementation of the DGMR architecture and data pipelines developed during my internship at KNMI.
+This is a private repository of my implementation of the DGMR architecture and data pipelines developed during my internship at KNMI.
 
 The data preprocessing directory contains all the necessary scripts to:
   1. Download Data from KNMI dataplatform (access key need to be acquired)
